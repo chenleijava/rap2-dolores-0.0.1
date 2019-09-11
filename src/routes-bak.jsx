@@ -142,6 +142,8 @@ const Routes = ({ match, location }, { store }) => {
               <Route exact path='/account' component={UserList} />
               <Route path='/account/users' component={UserList} />
               <Route path='/account/login' component={LoginForm} />
+              <Route path='/account/register' component={RegisterForm} />
+              <Route path='/account/update' component={UpdateForm} />
               <Route component={NoMatch} />
             </Switch>
           )} />
